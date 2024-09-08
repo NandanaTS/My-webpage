@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Nandana T S</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/picproo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+        
+        <nav>
+            <div class="navigation">
+                
+                <a href="#profile">My Profile</a>
+                <a href="#about">About</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#bucketlist">Bucketlist</a>
+                <a href="#contact">Contact</a>
+               
+        </div>
+        </nav>
+
+
+        <div id="profile">
+            
+     <img id ="profile-pic" src="img/dp.jpeg" alt="Nandana T S"  onclick="redirectToSocialMedia()">
+     <script>
+        function redirectToSocialMedia() {
+            window.location.href = "https://www.linkedin.com/in/nandana-t-s-910390247/";
+        }
+    </script>
+     <script>
+        const profilePic = document.getElementById('profile-pic');
+        
+        
+        profilePic.addEventListener('mouseover', function() {
+          document.body.style.backgroundColor = 'black';
+        });
+        
+        profilePic.addEventListener('mouseout', function() {
+          document.body.style.backgroundColor = 'beige'; 
+        });
+      </script>
+       <div class="name">
+        <button onclick="displayMessage()">Hello</button>
+
+        <h2>HI , I AM</h2>
+        <h1>NANDANA T S</h2>
+        <h4>FRONT-END DEVELOPER</h4>
+    </div>
+    </div>
+    <script>
+        function displayMessage() {
+          alert("Welcome to my web page!");
+        }
+      </script>
+
+    <div id="about">
+        <div class="bio">
+            <h1>About Me!</h1>
+        </div>
+        <div class="aboutme">
+            <p>I am a third-year B.Tech Computer Science and Engineering student at Mar Baselios College of Engineering and Technology (MBCET).</p>
+            <div class="strengths-section">
+                <h4>Strengths</h4>
+                <ul>
+                    <li>I have a strong passion for front-end development.</li>
+                    <li>I am a quick learner.</li>
+                </ul>
+            </div>
+            <div class="weakness-section">
+                <h4>Weaknesses</h4>
+                <ul>
+                    <li>I'm a perfectionist.</li>
+                    <li>I am still working on  my time management skills.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+          
+
+    <div id="hobbies">
+        <div class="activities">
+            <table>
+
+          <tr>
+           <div class="activity1">
+            <td> <img src="img/coloring.jpg"></td>
+            <td><h1>Drawing</h1></td>
+           
+         </div>
+        </tr>
+          
+        <tr>
+         <div class="activity2">
+           
+            <td></td> <center>
+            <td><h1>My favorite song</h1></td> 
+        </center>
+            <td> <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio></td> 
+          
+           </div>
+        </tr>
+
+        <tr>
+        <div class="activity3">
+            <td> <iframe width="180" height="150" src="https://www.youtube.com/embed/gRqY1nxGGE4?si=-iDMiwYHpuvbOeyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+            <td><h1>My favorite movie clip</h1></td>
+           
+            
+        </div>
+    </tr>
+    </table>
+        </div>
+
+        <div class="hobbiesname">
+            <h1>My Hobbies!</h1>
+        </div>
+
+    </div>
+
+
+    <div id="bucketlist">
+
+      <div class="favoritequotes">
+              <h1>Bucket List !</h1>
+      </div>
+     <div class="quotes">
+        <table border="1">
+            <tr>
+                <th>Serial No</th>
+                <th>Item</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sky Diving</td>
+                <td>Not done yet</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Scuba Diving</td>
+                <td>Not done yet</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>River Rafting</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Learn Swimming</td>
+                <td>Learning</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Learn Driving</td>
+                <td>Completed</td>
+            </tr>
+        </table>
+        
+   
+    </div>
+</div>
+
+
+    <div id="contact">
+        <div class="details">
+            
+            <div class="instagram">
+              
+                <a href="https://www.instagram.com/nandana.krishna.7?igsh=bzdqNzFwa2FhcWs5">  <img src="img/instagram.png"></a>
+                 <h1> <a href="https://www.instagram.com/nandana.krishna.7?igsh=bzdqNzFwa2FhcWs5">Instagram</a></h1> </div>
+            <div class="mail">
+               <h1> <a href="mailto:nandana2002k@gmail.com">Email</a></h1>
+                <a href="mailto:nandana2002k@gmail.com"> <img src="img/gmail.png"></a>
+            </div>
+            <div class="linkedin">
+               
+                <a href="https://www.linkedin.com/in/nandana-t-s-910390247/"> <img src="img/linkedin.png"></a>
+            <h1> <a href="https://www.linkedin.com/in/nandana-t-s-910390247/">LinkedIn</a></h1></div>
+            <div class="github">
+               <h1> <a href="https://github.com/NandanaTS">GitHub</a></h1>
+                <a href="https://github.com/NandanaTS"> <img src="img/github.png"></a>
+            </div>
+            
+           
+        </div>
+
+
+     <div class="contact_me">
+ <h1>Contact Me!</h1>
+
+     </div>
+     
+
+    </div>
+
+    </body>
+</html>
